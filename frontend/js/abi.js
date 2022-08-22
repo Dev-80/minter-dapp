@@ -11,7 +11,7 @@ const abi = [
               {
                 "internalType": "string",
                 "name": "symbol",
-                "type": "string"A
+                "type": "string"
               },
               {
                 "internalType": "address",
