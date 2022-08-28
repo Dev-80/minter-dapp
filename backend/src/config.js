@@ -99,10 +99,10 @@ const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 50; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-08-28T15:30:00+08:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00 UTC Time +8 SG Time 
+const PUBLIC_MINT_START_DATE = "2022-08-28T17:30:00+08:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00 UTC Time +8 SG Time 
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-08-28T15:00:00+08:00"; // null w/o "" Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-08-28T17:00:00+08:00"; // null w/o "" Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x69190865da67Cc088CC1f012EDf197E6eA286b59"; // Address that will receive the royalty
 const BASE_URI = "https://ipfs.io/ipfs/bafybeifck4lxxmklmvoh533cfioxhijqcmwgtxjmoh7gv525io5nakuata"; // only update if you want to manually set the base uri
