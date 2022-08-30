@@ -15,54 +15,16 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Gender" },
-      { name: "Intelligence Quotient" },
-      { name: "Personality Traits" },
-      { name: "Her Story" },
-      { name: "Skin Tone" },
-      { name: "Face Outline" },
-      { name: "Eye Shadow" },
-      { name: "Eye" },
-      { name: "Eye Lashes" },
-      { name: "Nose" },
-      { name: "Lips" },
-      { name: "Ear Accessories" },
-      { name: "Tattoo" },
-      { name: "Top and Accessories" },
-      { name: "Face Paint" },
-      { name: "Scars and Piercings" },
-      { name: "Eye Wear and Others" },
-      { name: "Hair" },
-      { name: "Head Wear" },
-      { name: "Others" },
 
-    ],
-  },{
-    growEditionSizeTo: 10,
-    layersOrder: [
       { name: "Background" },
-      { name: "Gender" },
-      { name: "Intelligence Quotient" },
-      { name: "Personality Traits" },
-      { name: "Her Story" },
-      { name: "Skin Tone" },
-      { name: "Face Outline" },
-      { name: "Eye Shadow" },
-      { name: "Eye" },
-      { name: "Eye Lashes" },
-      { name: "Nose" },
-      { name: "Lips" },
-      { name: "Ear Accessories" },
-      { name: "Tattoo" },
-      { name: "Top and Accessories" },
-      { name: "Face Paint" },
-      { name: "Scars and Piercings" },
-      { name: "Eye Wear and Others" },
-      { name: "Hairstyle" },
-      { name: "Others" },
+      { name: "Eyeball" },
+      { name: "Eye color" },
+      { name: "Iris" },
+      { name: "Shine" },
+      { name: "Bottom lid" },
+      { name: "Top lid" },
 
-    ],
+    ]
   },
 
 ];
@@ -92,8 +54,8 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 const CONTRACT_NAME = 'Loveher.io';
 const CONTRACT_SYMBOL = 'LH';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x69190865da67Cc088CC1f012EDf197E6eA286b59';
-const TREASURY_ADDRESS = '0x69190865da67Cc088CC1f012EDf197E6eA286b59';
+const OWNER_ADDRESS = '';
+const TREASURY_ADDRESS = '';
 const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 50; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -104,10 +66,10 @@ const PUBLIC_MINT_START_DATE = "2022-08-28T17:30:00+08:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-08-28T17:00:00+08:00"; // null w/o "" Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x69190865da67Cc088CC1f012EDf197E6eA286b59"; // Address that will receive the royalty
-const BASE_URI = "https://ipfs.io/ipfs/bafybeifck4lxxmklmvoh533cfioxhijqcmwgtxjmoh7gv525io5nakuata"; // only update if you want to manually set the base uri
+const ROYALTY_ADDRESS = ""; // Address that will receive the royalty
+const BASE_URI = ""; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x69190865da67Cc088CC1f012EDf197E6eA286b59","0x69190865da67Cc088CC1f012EDf197E6eA286b59","0x5E8842ef7d97E058c3054a9Af6Cbc3c5d46F7173","0x47cF0313d41f4bf297B66D7628d87fC39FAc054D"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["","","",""]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
