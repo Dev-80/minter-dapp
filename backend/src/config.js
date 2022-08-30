@@ -54,8 +54,8 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 const CONTRACT_NAME = 'Loveher.io';
 const CONTRACT_SYMBOL = 'LH';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '';
-const TREASURY_ADDRESS = '';
+const OWNER_ADDRESS = '0x69190865da67Cc088CC1f012EDf197E6eA286b59';
+const TREASURY_ADDRESS = '0x69190865da67Cc088CC1f012EDf197E6eA286b59';
 const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 50; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -66,10 +66,10 @@ const PUBLIC_MINT_START_DATE = "2022-08-28T17:30:00+08:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-08-28T17:00:00+08:00"; // null w/o "" Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = ""; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x69190865da67Cc088CC1f012EDf197E6eA286b59"; // Address that will receive the royalty
 const BASE_URI = ""; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["","","",""]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x69190865da67Cc088CC1f012EDf197E6eA286b59","","",""]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
